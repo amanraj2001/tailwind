@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-mono">
+    <div class="grid md:grid-cols-3">
+        <div class="md:col-span-1 bg-slate-300 ">
+            <nav class="text-end ">
+                <div class="text-xl space-x-2">
+                    <p></p>
+                <p>Food Ninja</p>
+                </div>
+                <ul class="mt-4 space-x-2 ">
+                    <li></li>
+                    <li ><a href="#" class="flex justify-end p-2 border-r-4 border-red-500">Home <svg fill="none" class="w-5"  stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+                      </svg></a></li>
+                    <li ><a href="#" class="flex justify-end p-2 border-r-4 border-slate-300">About <svg fill="none" class="w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"></path>
+                      </svg></a></li>
+                    <li ><a href="#" class="flex justify-end p-2 border-r-4 border-slate-300">Contact <svg fill="none" class="w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
+                      </svg></a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="md:col-span-2 md:pl-12  ">
+            <div class="flex  md:justify-end justify-center m-5 mr-10">
+                <button class="  text-red-400 rounded-full border-2 border-violet-400  bg-red-200 mr-2 hover:text-purple-700 hover:bg-green-400 px-3">Log in</button>
+                <button class=" text-red-400 rounded-full border-2 border-violet-400 bg-red-200 hover:text-purple-700 hover:bg-green-400 px-3">Sign up</button>
+            </div>
+            <div>
+                <p class="text-slate-500 text-4xl ml-5 ">Recipes</p>
+                <p class="text-slate-400 text-xl ml-5 ">For Ninjas</p>
+            </div>
+            <div class="mt-16 mb-10">
+                <p class="text-lg text-slate-400 ml-5 font-semibold ">Latest Recipes</p>
+                <hr>
+            </div>
+            
+            <!-- card begins using grid -->
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 m-1 gap-4 ">
+                <div class="border-2 relative">
+                    <img src="https://yesofcorsa.com/wp-content/uploads/2018/08/Tasty-Food-Best-Wallpaper.jpg" alt="..." class="">
+                    <div>
+                        <p class="text-slate-400 mt-2">5 bean Chilli Stew</p>
+                        <p class="text-slate-300">Recipe by Mario</p>
+
+                    </div>
+                    <div>
+                        <span class="absolute top-0 text-white bg-blue-400 rounded-full m-2 px-1"><svg fill="none" class="w-5 inline-block" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          </svg>  25 mins</span>
+                    </div>
+                </div>
+                <div class="border-2 relative">
+                    <img src="https://yesofcorsa.com/wp-content/uploads/2018/08/Tasty-Food-Best-Wallpaper.jpg" alt="..." class="">
+                    <div>
+                        <p class="text-slate-400 mt-2">5 bean Chilli Stew</p>
+                        <p class="text-slate-300">Recipe by Mario</p>
+
+                    </div>
+                    <div>
+                        <span class="absolute top-0 text-white bg-blue-400 rounded-full m-2 px-1"><svg fill="none" class="w-5 inline-block" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          </svg> 25 mins</span>
+                    </div>
+                </div>
+                <div class="border-2 relative">
+                    <img src="https://yesofcorsa.com/wp-content/uploads/2018/08/Tasty-Food-Best-Wallpaper.jpg" alt="..." class="">
+                    <div>
+                        <p class="text-slate-400 mt-2">5 bean Chilli Stew</p>
+                        <p class="text-slate-300">Recipe by Mario</p>
+
+                    </div>
+                    <div>
+                        
+                        <span class="absolute top-0 text-white bg-blue-400 rounded-full m-2 px-1"> <svg fill="none" class="w-5 inline-block" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          </svg> 25 mins</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-16 mb-10">
+                <p class="text-lg text-slate-400 ml-5 font-semibold ">More Popular</p>
+                
+            </div>
+            <div class="flex justify-center">
+
+                <button class=" text-white rounded-full border-2 border-red-600 bg-black hover:text-red-700 hover:bg-yellow-200 px-3">
+                    Load More
+                </button>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
